@@ -4,7 +4,7 @@ import {
   validateClientSecret,
 } from "@kinde-oss/kinde-typescript-sdk";
 import { json, redirect } from "@remix-run/node";
-import { config } from "./config";
+import { config } from "./config.server";
 import { createSessionManager } from "./session/session";
 import { generateCookieHeader } from "./utils/cookies";
 import { version } from "./utils/version";

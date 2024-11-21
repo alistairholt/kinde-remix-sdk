@@ -1,4 +1,4 @@
-import { config } from "./config";
+import { config } from "./config.server";
 import { kindeClient } from "./handle-auth";
 import { createSessionManager } from "./session/session";
 import { generateCookieHeader } from "./utils/cookies";
